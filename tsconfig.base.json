@@ -14,7 +14,11 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@sun/components": ["packages/components/src/index.ts"],
+      "@sun/hooks": ["packages/hooks/src/index.ts"],
+      "@sun/utils": ["packages/utils/src/index.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }
